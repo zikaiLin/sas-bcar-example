@@ -2,6 +2,8 @@
 
 
 
+![radius_simulation](https://github.com/zikaiLin/sas-bcar/blob/main/radius_simulation.png)
+
 
 
 ## Abstarct
@@ -19,6 +21,20 @@ We have developed an efficient posterior computation algorithm for SAS-BCAR and 
 
 `create_partition.R`: An example of creating an image prior partition,  $\Pi_k$,  using voxel variance across samples is provided. Note that this is just one example of creating an image partition, and there are other possible methods.
 
+`ModelSelection.R`: Model selection (chain selection) using likelihood.
+
 `SASBCAR_Fashion_MNIST.R` : An example code for simulation studies with an application to Fashion MNIST (for one replicate) is provided. Simply run the code, and the results will be saved locally. 
 
 `update_pj_mat.cpp`: Utility function for the Gibbs sampler to update the prior partition probability map, as part of the SAS-BCAR updating scheme.
+
+
+
+**Data analysis**
+
+
+
+`Data Analysis/model_cluster_script_179.R`: Real data analysis script, single subject. 
+
+`Data Analysis/character_accuracy.R`: Code for BCI experiments predictive accuracy.
+
+`Data Analysis/plot_non_linear_GP_BCI.R`: Code for plotting the non-linear relationship detected by SAS-BCAR.
