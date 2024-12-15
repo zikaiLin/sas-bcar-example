@@ -28,13 +28,3 @@ We have developed an efficient posterior computation algorithm for SAS-BCAR and 
 `update_pj_mat.cpp`: Utility function for the Gibbs sampler to update the prior partition probability map, as part of the SAS-BCAR updating scheme.
 
 
-
-**Data analysis**
-
-
-
-`Data Analysis/model_cluster_script_179.R`: Real data analysis script, single subject. 
-
-`Data Analysis/character_accuracy.R`: Code for BCI experiments predictive accuracy.
-
-`Data Analysis/plot_non_linear_GP_BCI.R`: Code for plotting the non-linear relationship detected by SAS-BCAR.
